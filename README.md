@@ -1,6 +1,6 @@
-Akvárium Szimulátor — Szabó Viktor Attila (RZT0AO)
+# Akvárium Szimulátor — Szabó Viktor Attila (RZT0AO)
 
-Feladat leírása:
+## Feladat leírása:
 
 A program egy egyszerű akvárium szimulátor, amelyben kétféle hal úszkál a képernyőn:
 Prey (menekülő hal): elmenekül az egér elől.
@@ -8,7 +8,7 @@ Predator (ragadozó hal): véletlenszerűen úszik, és ha az egér túl közel 
 A program újraindítható az R billentyűvel, illetve ESC-kel kiléphető.
 A kurzor helyett egy „ujj” ikon jelenik meg, mintha a játékos a vízbe nyúlna.
 
-Modulok és függvények
+### Modulok és függvények
 	main.py
 	A program indításáért felel.
 	Meghívja az app.run_app() függvényt.
@@ -36,22 +36,22 @@ Modulok és függvények
     	   draw(screen) — kirajzolja a buborékot (transzparens felületen).  
     	   is_dead(screen_height) — visszaadja, ha a buborék eltűnt/kiment a képernyőről.
 
-Osztályok
+***Osztályok***
 	Fish_VS
 	Attribútumok: x, y, vx, vy, image, fish_type, rect, flipped.
 	Metódusok:
 	move() – a hal mozgását kezeli, elkerüli a képernyő szélét, és reagál az egér közelségére.
 	draw() – kirajzolja a halat a képernyőre.
 
-Egyéb funkciók:
+***Egyéb funkciók:***
 
-Alternatív kurzor (emberi ujj kép).
-Hanghatás, amikor a hal „megeszi” az egeret.
-Buborék animáció a háttérben.
+- Alternatív kurzor (emberi ujj kép).
+- Hanghatás, amikor a hal „megeszi” az egeret.
+- Buborék animáció a háttérben.
 
-Futtatás:
+***Futtatás:***
 
-1.Helyezd az összes fájlt ugyanabba a mappába.
-2.Legyen egy assets mappa a képekkel és hanggal (pl. fish1.png, fish2.png, finger.png, chomp.mp3).
-3.Indítsd el a programot:
+1. Helyezd az összes fájlt ugyanabba a mappába.
+2. Legyen egy assets mappa a képekkel és hanggal (pl. fish1.png, fish2.png, finger.png, chomp.mp3).
+3. Indítsd el a programot:
 python main.py
