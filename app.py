@@ -42,7 +42,7 @@ def create_fish_list_VS(num=3):
     )
 
 def try_load_cursor_image():
-    candidates = ["finger.png", "finger_img.png", "cursor.png", "ujj.png", "hand.png"]
+    candidates = ["finger_img.png"]
     for name in candidates:
         p = os.path.join(ASSETS_DIR, name)
         if os.path.isfile(p):
