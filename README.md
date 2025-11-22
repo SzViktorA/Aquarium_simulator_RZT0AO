@@ -17,7 +17,7 @@ A kurzor helyett egy „ujj” ikon jelenik meg, mintha a játékos a vízbe ny�
 	Tartalmazza a grafikus felület és a fő játékhurok logikáját.
 	Főbb függvények:
 	load_background_VS() – háttérkép betöltése vagy alap háttér generálása.
-	create_fish_list_VS() – halak létrehozása véletlenszerűen, legalább egy ragadozó és egy menekülő.
+	create_fish_list_VS() – halak létrehozása véletlenszerűen, legalább egy ragadozó és egy préda.
 	run_app() – a fő játéklogika, eseménykezelés, képernyőfrissítés.
 
 	fishmodul_VS.py
