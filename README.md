@@ -1,6 +1,6 @@
 # Akvárium Szimulátor — Szabó Viktor Attila (RZT0AO)
 
-## Feladat leírása:
+## Program leírása:
 
 A program egy egyszerű akvárium szimulátor, amelyben kétféle hal úszkál a képernyőn:
 Prey (menekülő hal): elmenekül az egér elől.
